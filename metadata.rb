@@ -1,4 +1,4 @@
-name             'storm-vagrant'
+name             'stormvagrant'
 maintainer       'Rohan Kapadia'
 maintainer_email 'rohankapadia@gmail.com'
 license          'Apache2'
@@ -8,3 +8,5 @@ version          '0.1.0'
 
 depends "apt"
 depends "java"
+
+supports "ubuntu"

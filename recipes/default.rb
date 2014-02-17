@@ -6,3 +6,9 @@
 # 
 # All rights reserved - Do Not Redistribute
 #
+
+log node['java']['install_flavor']
+
+include_recipe 'java::default'
+
+log node['java']['install_flavor']
