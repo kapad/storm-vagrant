@@ -11,5 +11,6 @@ depends "storm"
 depends "zeromq"
 depends "zookeeper"
 depends "build-essential"
+depends "ark"
 
 supports "ubuntu"
