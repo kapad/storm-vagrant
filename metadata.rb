@@ -12,5 +12,6 @@ depends "zeromq"
 depends "zookeeper"
 depends "build-essential"
 depends "ark"
+depends "chef-jzmq"
 
 supports "ubuntu"
