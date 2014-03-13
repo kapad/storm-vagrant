@@ -15,10 +15,11 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
     config.vm.network :private_network, ip: "10.0.1.11"
     config.vm.network :forwarded_port, guest: 8080, host: 8081, auto_correct: true
+    config.vm.network :forwarded_port, guest: 3772, host: 3003, auto_correct: true
 
     config.vm.provider :virtualbox do |vb|
         vb.gui = false
-        vb.memory = 1024
+        vb.memory = 2048
         vb.name = "storm_vagrant"
     end
 
